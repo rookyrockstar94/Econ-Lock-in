@@ -1,6 +1,6 @@
 # Econ Lock-In: IB Economics HL Study Guide
 
-`IB Economics HL Study Guide.html` is a single-file study app covering the full IB Economics HL course (guide first assessed 2022, with the May 2024 assessment update): notes for every syllabus topic, 71 diagrams, HL calculations, exam technique, a glossary, flashcards, a quiz, calculation drills and essay plans.
+`Econ Lock-In.html` is a single-file study app covering the full IB Economics HL course (guide first assessed 2022, with the May 2024 assessment update): notes for every syllabus topic, 71 diagrams, HL calculations, exam technique, a glossary, flashcards, a quiz, calculation drills and essay plans.
 
 The page is generated. To change content, edit the sources in `src/` and rebuild:
 

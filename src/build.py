@@ -216,7 +216,7 @@ def build():
     SKEL = '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>'
     out = SKEL + shell.replace('/*CSS*/', css).replace('/*DATA*/', js).replace('/*APP*/', app)
     out += '</body></html>'
-    dst = os.path.join(HERE, '..', 'IB Economics HL Study Guide.html')
+    dst = os.path.join(HERE, '..', 'Econ Lock-In.html')
     open(dst, 'w', encoding='utf8').write(out)
     ne = sum(len(t['entries']) for u in syllabus for t in u['topics'])
     print(f'units {len(syllabus)} topics {sum(len(u["topics"]) for u in syllabus)} entries {ne} terms {len(glossary)} diagrams {len(dias)} mcq {len(mcq)} essays {len(essays)} size {len(out)//1024}KB')
