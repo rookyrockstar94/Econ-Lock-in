@@ -163,7 +163,7 @@ svg.dg{font-family:var(--font-display);font-stretch:92%}
 .dg-td{fill:var(--c-d)}.dg-ts{fill:var(--c-s)}.dg-tk{fill:var(--c-k)}.dg-tc{fill:var(--c-c)}.dg-tg{fill:var(--c-g)}.dg-tm{fill:var(--c-m)}
 .dg-lab{font-size:13.5px;font-weight:700}
 .dg-tick,.dg-note,.dg-alab,.dg-axlab{font-size:12.5px;fill:var(--ink-2)}
-.dg-alab{fill:var(--ink);font-weight:600}
+.dg-alab{fill:var(--ink);font-weight:600;font-size:11.5px}
 .dg-axlab{fill:var(--ink);font-weight:600}
 .dg-ptitle{font-size:14px;font-weight:700;fill:var(--ink)}
 .dg-axis{stroke:var(--c-k);fill:none;stroke-width:1.5}
